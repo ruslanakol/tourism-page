@@ -1,0 +1,38 @@
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 30px;
+}
+.burger-menu {
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+.nav-list {
+    display: inline-flex;
+    list-style: none;
+    gap: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+li:hover {
+    text-decoration: underine;
+}
+.section-one {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1602077159283-7f1312819a7e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin-top: 0;
+    padding-top: 20vh;
+}
+
+
