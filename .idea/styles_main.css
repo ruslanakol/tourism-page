@@ -1,17 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 header {
     position: fixed;
     display: flex;
     top: 0;
     width: 100%;
     justify-content: space-between;
+    background-color: rgba(241, 239, 236, 0.4);
 }
+
+/* section one*/
 .logo {
     font-size: 30px;
+    margin-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .burger-menu {
     align-items: flex-end;
     align-content: flex-end;
     justify-content: flex-end;
+    padding-right: 40px;
+    padding-top: 25px;
+    cursor: pointer;
 }
 .nav-list {
     display: inline-flex;
@@ -20,19 +32,177 @@ header {
     border-radius: 20px;
     border: 2px solid black;
     padding: 10px;
+    cursor: pointer;
+    padding-top: 10px;
 }
-li:hover {
+.list-a :hover {
     text-decoration: underine;
 }
+.li-home {
+    text-decoration: underline;
+}
 .section-one {
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url(https://images.unsplash.com/photo-1602077159283-7f1312819a7e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
     background-size: cover;
-    color: white;
-    height: 100vh;
-    margin-top: 0;
+    height: 90vh;
     padding-top: 20vh;
 }
+h1 {
+    font-size: 50px;
+}
+.sec-one-text {
+    padding-top: 140px;
+    margin-left: 50px;
+    color: #EFEFEF;
+}
+.get-started {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #F1EFEC;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 140px;
+    cursor: pointer;
+}
+.sec-one-text h3 {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 15px;
+    border-radius: 15px;
+    width: 146px;
+    height: 20px;
+    padding: 10px;
+    color: #EFEFEF;
+}
+.slogan {
+    padding-top: 110px;
+    color: lightgray;
+}
+/* section two*/
+/*
+.kelingking-beach {
+    height: 540px;
+    width: 360px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(https://i.pinimg.com/474x/85/7d/bf/857dbf06f5507deb658386995d05e71a.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+.kelingking-beach-text {
+    color: white;
+    padding-top: 380px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.places-p {
+    font-size: 26px;
+    font-weight: bold;
+}
+.small-text-p {
+    font-size: 17px;
+}
+.section-two {
+    display: flex;
+}
+.sec-2 {
+    display: flex;
+}
+.grand-palace {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(https://i.pinimg.com/474x/fb/69/18/fb69180fd4e84f95cff8cb7e43360fad.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 249px;
+    width: 240px;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.cappadocia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(https://i.pinimg.com/474x/fb/69/18/fb69180fd4e84f95cff8cb7e43360fad.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 249px;
+    width: 240px;
+    margin-right: 130px;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.padar-island {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(https://i.pinimg.com/474x/fb/69/18/fb69180fd4e84f95cff8cb7e43360fad.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 249px;
+    width: 300px;
+}
+.sec-3 {
+}
+*/
+.section-two {
+    display: flex;
+    gap: 30px; /* Відстань між блоками */
+    justify-content: center;
+}
+
+.sec-left {
+    width: 360px;
+}
+
+.kelingking-beach {
+    height: 540px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(https://i.pinimg.com/474x/85/7d/bf/857dbf06f5507deb658386995d05e71a.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.kelingking-beach-text {
+    color: white;
+    padding-top: 380px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.sec-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-row {
+    display: flex;
+    gap: 20px;
+}
+
+.grand-palace, .cappadocia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(https://i.pinimg.com/474x/fb/69/18/fb69180fd4e84f95cff8cb7e43360fad.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 249px;
+    width: 240px;
+}
+
+.padar-island {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(https://i.pinimg.com/474x/fb/69/18/fb69180fd4e84f95cff8cb7e43360fad.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 249px;
+    width: 100%;
+}
+
+
 
 
