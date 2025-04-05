@@ -80,72 +80,7 @@ h1 {
     padding-top: 110px;
     color: lightgray;
 }
-/* section two*/
-/*
-.kelingking-beach {
-    height: 540px;
-    width: 360px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
-    url(https://i.pinimg.com/474x/85/7d/bf/857dbf06f5507deb658386995d05e71a.jpg);
-    background-size: cover;
-    border-radius: 20px;
-    margin-left: 130px;
-    margin-top: 60px;
-}
-.kelingking-beach-text {
-    color: white;
-    padding-top: 380px;
-    padding-left: 20px;
-    cursor: pointer;
-}
-.places-p {
-    font-size: 26px;
-    font-weight: bold;
-}
-.small-text-p {
-    font-size: 17px;
-}
-.section-two {
-    display: flex;
-}
-.sec-2 {
-    display: flex;
-}
-.grand-palace {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
-    url(https://i.pinimg.com/474x/fb/69/18/fb69180fd4e84f95cff8cb7e43360fad.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-    height: 249px;
-    width: 240px;
-    margin-left: 70px;
-    margin-top: 60px;
-}
-.cappadocia {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
-    url(https://i.pinimg.com/474x/fb/69/18/fb69180fd4e84f95cff8cb7e43360fad.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-    height: 249px;
-    width: 240px;
-    margin-right: 130px;
-    margin-left: 70px;
-    margin-top: 60px;
-}
-.padar-island {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
-    url(https://i.pinimg.com/474x/fb/69/18/fb69180fd4e84f95cff8cb7e43360fad.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-    height: 249px;
-    width: 300px;
-}
-.sec-3 {
-}
-*/
+
 .section-two {
     display: flex;
     gap: 30px; /* Відстань між блоками */
@@ -163,6 +98,8 @@ h1 {
     url(https://i.pinimg.com/474x/85/7d/bf/857dbf06f5507deb658386995d05e71a.jpg);
     background-size: cover;
     border-radius: 20px;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .kelingking-beach-text {
@@ -170,8 +107,16 @@ h1 {
     padding-top: 380px;
     padding-left: 20px;
     cursor: pointer;
-}
 
+}
+.places-p {
+    font-size: 30px;
+
+}
+.small-text-p {
+    font-size: 20px;
+
+}
 .sec-right {
     display: flex;
     flex-direction: column;
@@ -182,27 +127,47 @@ h1 {
     display: flex;
     gap: 20px;
 }
-
-.grand-palace, .cappadocia {
+.grand-palace {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
     url(https://i.pinimg.com/474x/fb/69/18/fb69180fd4e84f95cff8cb7e43360fad.jpg);
+}
+.grand-palace, .cappadocia {
     background-size: cover;
     background-position: center;
     border-radius: 20px;
     height: 249px;
     width: 240px;
+    margin-top: 40px;
 }
+.cappadocia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url(https://images.unsplash.com/photo-1559783510-c448bd7d686b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FwcGFkb2NpYXxlbnwwfHwwfHx8MA%3D%3D);
+}
+.cappadocia-beach-text, .grand-palace-text {
+    padding-top: 110px;
+    padding-left: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
 .padar-island {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
-    url(https://i.pinimg.com/474x/fb/69/18/fb69180fd4e84f95cff8cb7e43360fad.jpg);
+    url(https://images.unsplash.com/photo-1604560929658-bbc3c2ba6a36?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFkYXIlMjBpc2xhbmR8ZW58MHx8MHx8fDA%3D);
     background-size: cover;
     background-position: center;
     border-radius: 20px;
     height: 249px;
     width: 100%;
+    margin-top: 20px;
 }
-
-
+.padar-island-text {
+    padding-top: 110px;
+    padding-left: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.for-cursor{
+    cursor: pointer;
+}
 
 
