@@ -80,7 +80,7 @@ h1 {
     padding-top: 110px;
     color: lightgray;
 }
-
+/* section two */
 .section-two {
     display: flex;
     gap: 30px; /* Відстань між блоками */
@@ -167,6 +167,76 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .for-cursor{
+    cursor: pointer;
+}
+
+/* section three */
+.section-three {
+    display: flex;
+}
+.sec2-img {
+    margin-top: 100px;
+    margin-left: 110px;
+    border-radius: 15px;
+}
+.sec2-h2 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 160px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.sec2-p {
+    margin-left: 160px;
+    color: gray;
+    font-size: 15px;
+    width: 400px;
+    height: 90px;
+    padding-top: 0px;
+    margin-top: 0;
+}
+.icons-list {
+    margin-left: 160px;
+}
+.safe-travelling-icons, .comfort-accommodation-icons, .affordable-price-icons {
+    display: flex;
+}
+.icons-list h3,  p{
+    margin-left: 30px;
+}
+.icons-list p {
+    color: gray;
+}
+.icons-img {
+    margin-top: 20px;
+}
+
+footer {
+    color: white;
+    background-color: #09122C;
+
+    height: 230px;
+    padding-top: 60px;
+    padding-left: 60px;
+    display: flex;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.footer-h2 {
+    font-size: 30px;
+    margin-left: 90px;
+}
+.second-column p {
+    font-size: 15px;
+    margin-left: 140px;
+    padding-top: 20px;
+}
+.learn-more {
+    color: #09122C;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    width: 190px;
     cursor: pointer;
 }
 
